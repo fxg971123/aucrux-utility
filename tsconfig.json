@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "ES6", 
+      "declaration": true, 
+      "outDir": "dist", 
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    //   "types": ["node", "jest"],
+      "strict": true 
+    },
+    "include": ["src"],
+    "typedocOptions": {
+        "name": "Web utils",
+        "excludeExternals": true,
+        "excludePrivate": true,
+        "readme": "./ReadMe.md",
+        "out": "docs/"
+    }
+  }

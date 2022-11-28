@@ -1,0 +1,39 @@
+{
+  "name": "aucrux-utility",
+  "version": "1.0.2",
+  "description": "web tools with typescript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist/ docs/  &&  tsc",
+    "test": "ts-mocha tests/**/test.ts",
+    "typedoc": "npx typedoc --tsconfig typedoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxg971123/aucrux.git"
+  },
+  "keywords": [
+    "typescript",
+    "front-end"
+  ],
+  "author": "43235817@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fxg971123/aucrux/issues"
+  },
+  "homepage": "https://github.com/fxg971123/aucrux#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1",
+    "ts-mocha": "^10.0.0",
+    "typedoc": "^0.23.21",
+    "typescript": "^4.9.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "tabWidth": 2
+  }
+}

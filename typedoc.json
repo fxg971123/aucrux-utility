@@ -1,0 +1,14 @@
+{
+    "entryPoints": [
+      "src"
+    ],
+    "exclude": [
+      "node_moudles",
+      "tests",
+      "modules/WebViewer/**/*.ts"
+    ],
+    "includeVersion": true,
+    "name": "auCrux utility",
+    "hideGenerator": true,
+    "disableSources": true
+  }
