@@ -1,12 +1,11 @@
 {
     "compilerOptions": {
-      "target": "ES5",
-      "module": "ES6", 
+      "target": "ES2020",
+      "module": "ESNEXT", 
+      "moduleResolution": "Node",
       "declaration": true, 
-      "outDir": "dist", 
-      "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    //   "types": ["node", "jest"],
-      "strict": true 
+      "outDir": "dist",
+      "lib": ["ESNEXT", "DOM", "DOM.Iterable"]
     },
     "include": ["src"],
     "typedocOptions": {

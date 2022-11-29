@@ -4,5 +4,13 @@
  * @return {number}
  */
 export function sum(data) {
-    return data.reduce(function (sum, item) { return sum + item; }, 0);
+    return data.reduce((sum, item) => sum + item, 0);
+}
+/**
+ * @description:
+ * @param {number} data
+ * @return {number}
+ */
+export function getAve(data) {
+    return sum(data) / data.length;
 }

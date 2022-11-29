@@ -4,3 +4,9 @@
  * @return {number}
  */
 export declare function sum(data: number[]): number;
+/**
+ * @description:
+ * @param {number} data
+ * @return {number}
+ */
+export declare function getAve(data: number[]): number;

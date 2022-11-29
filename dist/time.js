@@ -4,8 +4,8 @@
  * @return {void}
  */
 export function sleep(ms) {
-    var start = Date.now();
-    var now = start;
+    const start = Date.now();
+    let now = start;
     while (now - start < ms) {
         now = Date.now();
     }
