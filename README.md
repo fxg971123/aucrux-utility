@@ -1,5 +1,5 @@
 # aucrux-utility
-[[![npm version](https://badge.fury.io/js/aucrux-utility.svg)](https://badge.fury.io/js/aucrux-utility)](https://img.shields.io/npm/v/aucrux-utility)
+![npm version](https://badge.fury.io/js/aucrux-utility.svg)
 
 ![npm](https://img.shields.io/npm/dw/aucrux-utility)
 
